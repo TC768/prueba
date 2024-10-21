@@ -1,9 +1,57 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "proyectos": [
+    {
+      "id": 1,
+      "name": "Talleres a indígenas de Turrialba",
+      "description": "En este taller se les dieron a las indígenas diferentes herramientas para que puedan aprender sobre el uso de la tecnología y la gestión de un negocio.",
+      "date": "2022-2023-2024",
+      "url": [
+        "assets/TALLERINDIGENAS/3.webp",
+        "assets/TALLERINDIGENAS/2.webp",
+        "assets/TALLERINDIGENAS/1.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Taller de primeros auxilios",
+      "description": "En este taller se les dieron a las diferentes personas herramientas y conocimientos para que usen estos en situaciones necesarias",
+      "date": "2024",
+      "url": [
+        "assets/TALLERPRIMEROSAUXILIOS/2.webp",
+        "assets/TALLERPRIMEROSAUXILIOS/3.webp",
+        "assets/TALLERPRIMEROSAUXILIOS/1.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Taller de emprendimiento en sitio mata",
+      "description": "En este taller se le dotó a las emprendedoras de herramientas y habilidades para implementar en sus negocios",
+      "date": "2023",
+      "url": [
+        "assets/TALLEREMPRENDIMIENTOSSITIOMATA/1.webp",
+        "assets/TALLEREMPRENDIMIENTOSSITIOMATA/3.webp",
+        "assets/TALLEREMPRENDIMIENTOSSITIOMATA/2.webp"
+      ]
+    },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "actividades": [
+    {
+      "id": 1,
+      "image": "assets/TALLERINDIGENAS/2.webp",
+      "description": "Taller de empoderamiento",
+      "information": "El objetivo de este taller es suministrar herramientas para empoderar al grupo de mujeres y fomentar su desarrollo personal."
+    },
+    {
+      "id": 2,
+      "image": "assets/TALLERINDIGENAS/4.webp",
+      "description": "Taller de uso básico de computadoras",
+      "information": "El objetivo de este taller es que las mujeres indígenas aprendan sobre el uso del computador y cómo usar herramientas básicas en el negocio, así como la gestión del negocio y diseño de presentaciones para su promoción del producto"
+    },
+    {
+      "id": 3,
+      "image": "https://fundacionarchivoalburquerque.org/wp-content/uploads/2024/01/proximamente.png",
+      "description": "Próximamente",
+      "information": "Próximamente"
+    }
+  ]
 }
